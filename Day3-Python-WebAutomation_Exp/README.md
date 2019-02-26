@@ -1,0 +1,45 @@
+# Running Instruction 
+
+- Open anaconda prompt / Linux Terminal /CMD
+- Check python installed or not using `python --version`
+- Expected output `Python 3.x.x :: Anaconda, Inc.` or  `Python 3.x.x`
+  - ##### If python not installed :- Linux
+    - `sudo apt-get install software-properties-common`
+    - `sudo add-apt-repository ppa:deadsnakes/ppa`
+    - `sudo apt-get update`
+    - `sudo apt-get install python3.6`
+  - ##### If python not installed :- Windows
+    - Download and install https://www.python.org/downloads/
+    
+- Check pip is installed or not using `pip --version`
+- Expected Output `pip xx.x from C:\Users\Personal\AppData\Roaming\Python\Python3x\site-packages\pip (python 3.x)`
+  - ##### If pip not installed : Linux
+    - `sudo apt update`
+    - `sudo apt install python-pip`
+  - ##### If pip not installed : Windows
+    - Save the webpage to desktop (Automatically it save as a pyton file ) https://bootstrap.pypa.io/get-pip.py
+    - Go to desktop : press LSHIFT + MOUSE RIGHT CLICK
+    - choose open powershell/cmd here
+    - `python get-pip.py`
+- Install selenium `Pip install Selenium`
+- Download browser automation tool
+  - if you are using Chrome :- http://chromedriver.chromium.org/downloads
+  - if you are using Firefox :- https://github.com/mozilla/geckodriver/releases
+- Extract and save it to desktop , inside a folder geckodriver or chromedriver accordingly 
+  - ##### For linux :-
+    - ###### Geckodriver
+      - `wget https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz`
+      - `sudo sh -c 'tar -x geckodriver -zf geckodriver-v0.23.0-linux64.tar.gz -O > /usr/bin/geckodriver'`
+      - `sudo chmod +x /usr/bin/geckodriver`
+      - `rm geckodriver-v0.23.0-linux64.tar.gz`
+    - ###### Chromedriver
+      - `wget https://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip`
+      - `unzip chromedriver_linux64.zip`
+      - `sudo chmod +x chromedriver`
+      - `sudo mv chromedriver /usr/bin/`
+      - `rm chromedriver_linux64.zip`
+  - ##### For Windows 
+    - ###### Chromedriver & Geckodriver
+      - https://www.youtube.com/watch?v=dz59GsdvUF8
+
+- ###### Run the file using `python whatsappmessager.py`
