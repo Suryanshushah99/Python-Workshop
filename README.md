@@ -11,5 +11,5 @@ Python Workshop codes
    
    ouput - `Python 3.x.x`
    
- - Run the code using `Python <filename>.py` or `Python <filename>.py`
+ - Run the code using `Python <filename>.py` or `Python <filename>.py
  
